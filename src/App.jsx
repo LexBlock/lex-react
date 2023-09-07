@@ -25,9 +25,9 @@ import "./styles.css";
  */
 const siteProps = {
   name: "LexBlock dApplications",
-  title: "Web2 & Web3 integrations",
+  title: "Web2 & Web3 Legal Engineering Integrations",
   email: "lexblock@gmail.com",
-  gitHub: "https://github.com/LexBlock/l",
+  gitHub: "https://github.com/LexBlock/",
   instagram: "lexblock",
   linkedIn: "lexblock",
   medium: "",

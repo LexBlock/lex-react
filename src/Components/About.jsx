@@ -17,6 +17,7 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/motion-background.jpg";
+import drake from "../images/drake.png";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +25,16 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Delivering legal integrations, shaping international finance";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Legal Engineering",
+  "Web3 Legal Analysis",
+  "Lowering Regulatory Compliance Friction",
 ];
 
 /**
@@ -45,7 +43,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Don't fuck around and find out. ";
 
 const About = () => {
   return (
@@ -60,7 +58,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>LexBlock</h2>
         <p className="large">{description}</p>
         <hr />
         <ul
